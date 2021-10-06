@@ -1,0 +1,85 @@
+:root {
+    --main-color: #AABBCC;
+    --main-modal-color: rgba(22, 41, 44, 0.5);
+    --second-color: #2B2B2B;
+    --second-modal-color: rgba(43, 43, 43, .5);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--second-color);
+    
+}
+/* body{
+    background-color: url(/img/cowboy.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+    color:black;
+    
+} */
+body {
+    margin: 2rem auto;
+    overflow-x: hidden;
+    max-width: 800px;
+    
+        background:url(./img/fondo-madera.jpg) no-repeat center center fixed;
+        background-size: cover;
+    
+        color:black;
+        
+    
+  
+    background-size: cover;
+} 
+
+a {
+    font-weight: bold;
+    color: var(--second-color);
+    transition: all .3s ease-out;
+}
+
+a:hover {
+    color: var(--second-modal-color);
+}
+
+p {
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Header h1 {
+    word-wrap: break-word;
+}
+
+.Header img {
+    margin: 0 auto;
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.Header nav {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+}
+.cuadro{
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 0%;
+    background-color: white;
+    opacity: .89;
+    padding: 0% 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px black;
+}
